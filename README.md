@@ -1,3 +1,4 @@
+
 <p align="center">
   <img src="https://multiplier.com.br/assets/multiplier.svg" width="320" alt="Nest Logo" />
 </p>
@@ -17,6 +18,10 @@ ex:
 - Caso for esteja desenvolvendo o endpoint de Produtos, crie uma branch chamada `feature/endpoint-produtos`.
 - Faça os commits semânticos nela, ex: `feat(Produtos): Criado endpoint GET de produtos`.
 - Quando finalizar, realize o merge para a branch `main`
+
+### Dúvidas sobre o desafio
+
+Caso tenha alguma dúvida sobre o desafio, [abra uma issue](https://github.com/multiplierx/desafio-integracao/issues) neste repositório e alguém da nossa equipe de integração vai te ajudar! Utilizamos as issues para que cada dúvida possa servir de ajuda para o próximo! 
 
 
 #### A seguir, está seu desafio, boa sorte! 

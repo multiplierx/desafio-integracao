@@ -88,10 +88,10 @@ Caso opte por não utilizar a framework, você deverá usar o [`express`](https:
 	- Produtos
 	
 	[GET] 	 /produtos 		- Lista todos os Produtos
-	[GET] 	 /produtos/:id 	- Busca um Produto por id
+	[GET] 	 /produtos/:id 		- Busca um Produto por id
 	[POST] 	 /produtos 		- Cria um Produto
-	[PATCH]  /produtos/:id 	- Edita um Produto
-	[DELETE] /produtos/:id	- Deleta um Produto (e seu estoque)
+	[PATCH]  /produtos/:id 		- Edita um Produto
+	[DELETE] /produtos/:id		- Deleta um Produto (e seu estoque)
 
 	- Estoque
 		* Quando um produto é criado, deve ser criado um estoque com quantidade 0 para o Produto

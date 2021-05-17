@@ -15,7 +15,7 @@ Crie um repositório público no [Github](https://github.com/). Assim que finali
 Lembre-se que estamos analisando seu conhecimento Git também, então utilize [Commits Semânticos](https://blog.geekhunter.com.br/o-que-e-commit-e-como-usar-commits-semanticos/) no processo de desenvolvimento do desafio.
 
 ex: 
-- Caso for esteja desenvolvendo o endpoint de Produtos, crie uma branch chamada `feature/endpoint-produtos`.
+- Caso esteja desenvolvendo o endpoint de Produtos, crie uma branch chamada `feature/endpoint-produtos`.
 - Faça os commits semânticos nela, ex: `feat(Produtos): Criado endpoint GET de produtos`.
 - Quando finalizar, realize o merge para a branch `main`
 

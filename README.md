@@ -7,7 +7,7 @@
 
 Estamos felizes de ter você no nosso processo seletivo para Equipe de Integração!
 
-Neste processo, vamos analisar seu conhecimento sobre APIs Rest, Banco de Dados, Javascript (e/ou Typescript) e Git!
+Neste processo, vamos analisar seu conhecimento sobre APIs Rest, JEST, Javascript (e/ou Typescript) e Git!
 
 ### Como enviar o desafio
 Crie um repositório público no [Github](https://github.com/). Assim que finalizar seu desafio, envie o link do repositório para o endereço de email `talentos@multiplier.com.br`
@@ -31,18 +31,12 @@ Caso tenha alguma dúvida sobre o desafio, [abra uma issue](https://github.com/m
 
 **Resumo:**
 
-- Criar um Banco de dados PostgreSQL
 - Criar um Banco de dados MySQL
 - Criar uma api para consumir o banco de dados Mysql utilizando Sequelize como ORM
-- Criar um serviço cron utilizando [node-schedule](https://www.npmjs.com/package/node-schedule) para buscar dados na API e salvar no banco de dados PostgreSQL
 
 **Diferenciais:**
 
-Aqui na Multiplier, utilizamos a framework [NestJS](https://nestjs.com/) para desenvolver nossos serviços de integração. **Você não precisa utilizar esta mesma framework**, você é livre para escolher a forma que deseja executar o desafio, porém utilizando o **NestJS** você já se familiariza com nossos processos, e requere menos configuração para executar o desafio 😉
-
-Caso opte por utilizar a framework NestJS (preferencialmente), você deve utilizar typescript. Você deverá usar o pacote npm `sequelize-typescript`. Consulte as [docs do NestJs](https://docs.nestjs.com/recipes/sql-sequelize) para maiores informações.
-
-Caso opte por não utilizar a framework, você deverá usar o [`express`](https://expressjs.com/pt-br/starter/hello-world.html) como servidor e o [`sequelize`](https://sequelize.org/master/) como ORM. Você poderá usar ou não typescript se seguir esta opção. Fica ao seu critério.
+Você deverá usar o [`express`](https://expressjs.com/pt-br/starter/hello-world.html) como servidor e o [`sequelize`](https://sequelize.org/master/) como ORM. Você poderá usar ou não typescript se seguir esta opção. Fica ao seu critério.
 
 ### Instruções:
 
@@ -77,11 +71,11 @@ Caso opte por não utilizar a framework, você deverá usar o [`express`](https:
 | reserva    | int     | Quantidade reservada     |
 | status     | int     | 0 - Inativo, 1 - Ativo   |
 
-
 <br>
 
-## 2. Desenvolver uma API Restful para cada resource:
-	
+## 2. Criar primeiramente os testes da aplicação utilizando o [`jest`](https://jestjs.io/pt-BR/)
+### 2.1. Desenvolver uma API Restful para cada resource:
+
 	- Categorias
 	
 	[GET] 	 /categorias 		- Lista todas as Categorias
@@ -105,15 +99,6 @@ Caso opte por não utilizar a framework, você deverá usar o [`express`](https:
 	[GET] 	 /produtos/:id/estoque 	- Lista o estoque para o Produto pelo id
 	[PATCH]  /produtos/:id/estoque 	- Edita o Estoque para o Produto pelo id
 	[DELETE] /produtos/:id/estoque	- Deve retornar o status [501] - Not Implemented. (não se pode deletar um estoque)
-
-## 3. Criar um banco de dados PostgreSQL com as mesmas tabelas anteriores
-
-## 4. Criar o serviço Cron
-Crie um serviço que consome os dados dos endpoints e execute uma determinada função que realize a integração dos dados MySQL => PostgreSQL.
-
-A função deve consumir os endpoints criados anteriormente em um determinado intervalo de tempo (utilizando o [node-cron](https://www.npmjs.com/package/node-schedule)) e salvar os dados no banco PostgreSQL.
-
-Dica: Você pode utilizar o site [Crontab.guru](https://crontab.guru/) para melhor visualizar o formato cron.
 
 # Boa sorte!
 

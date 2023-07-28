@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://multiplier.com.br/assets/multiplier.svg" width="320" alt="Nest Logo" />
+  <img src="[https://multiplier.com.br/assets/multiplier.svg](https://multipliersalestech.com.br/_ipx/s_210x30/images/multiplier.svg)" width="320" alt="Multiplier Logo" />
 </p>
 
 ## Seja Bem vindo à Multiplier!
